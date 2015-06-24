@@ -1,5 +1,7 @@
 var vowels = function(something){
-  something.replace(/[aeiouAEIOU]/, "");
+  var result = something.replace(/[aeiouAEIOU]/g, "");
+  console.log(result);
+  return result;
 };
 
-something("Someone help me! I need help! Oh man buddy!")
+vowels("Someone help me! I need help! Oh man buddy!")
