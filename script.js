@@ -1,5 +1,5 @@
-function addNumbers(a, b) {
-  return a + b;
-}
+var challenges = {};
 
-console.log(addNumbers(3, 5));
+challenges.add = function (a, b){
+  return a + b;
+};
